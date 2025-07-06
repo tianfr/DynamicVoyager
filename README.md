@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets\dynamicvoyager_icon2.jpg" height=100>
+    <img src="assets\dynamicvoyager_icon2.jpg" width="50%">
 </p>
 <div align="center">
 
