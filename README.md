@@ -16,18 +16,19 @@
 </p>
 <h3 align="center">🌟ICCV 2025🌟</h3>
 <!-- <a href=""><img src='https://img.shields.io/badge/arXiv-2507.02813-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp; -->
-<a href=""><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://tianfr.github.io/project/DynamicVoyager/index.html"><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets\dynamicvoyager_teaser.gif" alt="gif1" style="flex: 1 1 20%; max-width: 98%;">
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="assets\rose.gif" alt="gif1" style="flex: 1 1 20%; max-width: 18.5%;">
-  <img src="assets\umbrella.gif" alt="gif2" style="flex: 1 1 20%; max-width: 18.5%;">
-  <img src="assets\village1.gif" alt="gif3" style="flex: 1 1 20%; max-width: 18.5%;">
-  <img src="assets\cat.gif" alt="gif4" style="flex: 1 1 20%; max-width: 18.5%;">
-  <img src="assets\cartoon.gif" alt="gif5" style="flex: 1 1 20%; max-width: 18.5%;">
-</div>
-
+<table>
+  <tr>
+    <td><img src="assets\rose.gif" alt="gif1" width="150"></td>
+    <td><img src="assets\umbrella.gif" alt="gif2" width="150"></td>
+    <td><img src="assets\village1.gif" alt="gif3" width="150"></td>
+    <td><img src="assets\cat.gif" alt="gif4" width="150"></td>
+    <td><img src="assets\cartoon.gif" alt="gif5" width="150"></td>
+  </tr>
+</table>
 
 This is the official implementation of our ICCV 2025 paper "Voyaging into Unbounded Dynamic Scenes from a Single View".
 
