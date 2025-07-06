@@ -22,11 +22,13 @@
 
 <table>
   <tr>
+    <td><img src="assets\village.gif" alt="gif5" width="150"></td>
     <td><img src="assets\rose.gif" alt="gif1" width="150"></td>
     <td><img src="assets\umbrella.gif" alt="gif2" width="150"></td>
     <td><img src="assets\village1.gif" alt="gif3" width="150"></td>
     <td><img src="assets\cat.gif" alt="gif4" width="150"></td>
     <td><img src="assets\cartoon.gif" alt="gif5" width="150"></td>
+    <td><img src="assets\village2.gif" alt="gif5" width="150"></td>
   </tr>
 </table>
 
