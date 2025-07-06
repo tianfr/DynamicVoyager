@@ -3,7 +3,7 @@
 </p>
 <div align="center">
 
-# ✨Voyaing into Unbounded Dynamic Scenes from a Single View
+# ✨Voyaging into Unbounded Dynamic Scenes from a Single View
 
 <p align="center">
 <a href="https://tianfr.github.io/">Fengrui Tian</a>,
