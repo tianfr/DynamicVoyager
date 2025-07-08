@@ -15,10 +15,16 @@
     University of Pennsylvania
 </p>
 <h3 align="center">🌟ICCV 2025🌟</h3>
-<!-- <a href=""><img src='https://img.shields.io/badge/arXiv-2507.02813-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp; -->
+<a href="https://arxiv.org/abs/2507.04183"><img src='https://img.shields.io/badge/arXiv-2507.04183-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://tianfr.github.io/project/DynamicVoyager/index.html"><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=DycfO7DTu98"><img src='https://img.shields.io/badge/Youtube-Video-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+
 <img src="assets\dynamicvoyager_teaser.gif" alt="gif1" style="flex: 1 1 20%; max-width: 98%;">
 </div>
+<br>
+
 
 <table>
   <tr>
@@ -40,7 +46,7 @@ This is the official implementation of our ICCV 2025 paper "Voyaging into Unboun
 ## Abstract
  We study the problem of generating an unbounded dynamic scene from a single view. Since the scene is changing over time, different generated views need to be consistent with the underlying 3D motions. We propose DynamicVoyager that reformulates the dynamic scene generation as a scene outpainting process for new dynamic content. As 2D outpainting models can hardly generate 3D consistent motions from only 2D pixels at a single view, we consider pixels as rays to enrich the pixel input with the ray context, so that the 3D motion consistency can be learned from the ray information. More specifically, we first map the single-view video input to a dynamic point cloud with the estimated video depths. Then we render the partial video at a novel view and outpaint the video with ray contexts from the point cloud to generate 3D consistent motions. We employ the outpainted video to update the point cloud, which is used for scene outpainting from future novel views.
 
-🎮 Codes, 📖 paper and 🪄 models will be released soon....
+🎮 Codes and 🪄 models will be released soon....
 
 
 
