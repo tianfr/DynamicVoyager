@@ -3,7 +3,7 @@
 </p>
 <div align="center">
 
-# ✨Voyaging into Unbounded Dynamic Scenes from a Single View
+# ✨Voyaging into Perpetual Dynamic Scenes from a Single View
 
 <p align="center">
 <a href="https://tianfr.github.io/">Fengrui Tian</a>,
@@ -40,11 +40,11 @@
 
 
 
-This is the official implementation of our ICCV 2025 paper "Voyaging into Unbounded Dynamic Scenes from a Single View".
+This is the official implementation of our ICCV 2025 paper "Voyaging into Perpetual Dynamic Scenes from a Single View".
 
 
 ## Abstract
- We study the problem of generating an unbounded dynamic scene from a single view. Since the scene is changing over time, different generated views need to be consistent with the underlying 3D motions. We propose DynamicVoyager that reformulates the dynamic scene generation as a scene outpainting process for new dynamic content. As 2D outpainting models can hardly generate 3D consistent motions from only 2D pixels at a single view, we consider pixels as rays to enrich the pixel input with the ray context, so that the 3D motion consistency can be learned from the ray information. More specifically, we first map the single-view video input to a dynamic point cloud with the estimated video depths. Then we render the partial video at a novel view and outpaint the video with ray contexts from the point cloud to generate 3D consistent motions. We employ the outpainted video to update the point cloud, which is used for scene outpainting from future novel views.
+ We study the problem of generating a perpetual dynamic scene from a single view. Since the scene is changing over time, different generated views need to be consistent with the underlying 3D motions. We propose DynamicVoyager that reformulates the dynamic scene generation as a scene outpainting process for new dynamic content. As 2D outpainting models can hardly generate 3D consistent motions from only 2D pixels at a single view, we consider pixels as rays to enrich the pixel input with the ray context, so that the 3D motion consistency can be learned from the ray information. More specifically, we first map the single-view video input to a dynamic point cloud with the estimated video depths. Then we render the partial video at a novel view and outpaint the video with ray contexts from the point cloud to generate 3D consistent motions. We employ the outpainted video to update the point cloud, which is used for scene outpainting from future novel views.
 
 🎮 Codes and 🪄 models will be released soon....
 
@@ -54,7 +54,7 @@ This is the official implementation of our ICCV 2025 paper "Voyaging into Unboun
 ```
 @InProceedings{25iccv/tian_dynvoyager,
     author    = {Tian, Fengrui and Ding, Tianjiao and Luo, Jinqi and Min, Hancheng and Vidal, Ren\'e},
-    title     = {Voyaging into Unbounded Dynamic Scenes from a Single View},
+    title     = {Voyaging into Perpetual Dynamic Scenes from a Single View},
     booktitle = {Proceedings of the International Conference on Computer Vision (ICCV)},
     month     = {October},
     year      = {2025}
