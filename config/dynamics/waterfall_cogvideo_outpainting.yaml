@@ -1,0 +1,45 @@
+runs_dir: output/cogvideo_outpainting/waterfall_cogvideo_outpainting_huge_waves
+
+example_name: small_waterfall
+
+seed: -1
+frames: 10
+
+finetune_decoder_gen: True
+finetune_decoder_interp: True
+finetune_depth_model: False
+
+num_scenes: 1
+num_keyframes: 6
+use_gpt: True
+kf2_upsample_coef: 4
+skip_interp: False
+skip_gen: False
+enable_regenerate: True
+
+debug: True
+inpainting_resolution_gen: 512
+
+rotation_range: 0.45
+rotation_path: [1, 1, 0, 0, 1, 1, 0, 0, 0]
+camera_speed_multiplier_rotation: 0.2
+save_fps: 10
+
+use_dynamic_point_cloud: True
+
+# kf1_image_path: /home/tianfr/data/DynamiCrafter/prompts/village/56_village.png
+# kf1_video_path: /home/tianfr/data/DynamiCrafter/results/dynamicrafter_1024_seed123/samples_separate/56_village_sample0.mp4
+
+# kf2_image_path: /home/tianfr/data/DynamiCrafter/prompts/village/56_village_outpaint4.png
+# kf2_video_path: /home/tianfr/data/DynamiCrafter/results/good/village/samples_separate/56_village_outpaint4_sample0.mp4
+
+use_prerendered_images_videos: False
+kf1_image_path: None
+kf1_video_path: /home/tianfr/data/WonderLive/output/cogvideo_outpainting/waterfall/Gen-16-12_13-19-43_Style:_DSLR_35mm_landscape._Entities:_ca/videos/frames/0.mp4
+
+kf2_image_path: None
+kf2_video_path: None
+
+video_generation_model: "cogvideo"
+pretrained_diffusion_model: "checkpoints/cogvideox_outpainting_lora"
+have_foreground: False
